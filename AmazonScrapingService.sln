@@ -1,0 +1,84 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmazonScraper.Service", "AmazonScraper.Service\AmazonScraper.Service.csproj", "{BB0B5CA4-3C77-4F17-8BF6-31A6AFD7C147}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmazonScraper.Service.Abstractions", "AmazonScraper.Service.Abstractions\AmazonScraper.Service.Abstractions.csproj", "{D4C0008A-8611-4E0C-B452-15F87AD23351}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmazonScraper.Service.Data", "AmazonScraper.Service.Data\AmazonScraper.Service.Data.csproj", "{4E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmazonScraper.Service.Data.Abstractions", "AmazonScraper.Service.Data.Abstractions\AmazonScraper.Service.Data.Abstractions.csproj", "{5E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmazonScraper.Service.Host.WebApi", "AmazonScraper.Service.Host.WebApi\AmazonScraper.Service.Host.WebApi.csproj", "{6E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmazonScraper.Service.SDK", "AmazonScraper.Service.SDK\AmazonScraper.Service.SDK.csproj", "{7E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmazonScraper.Service.SDK.Abstractions", "AmazonScraper.Service.SDK.Abstractions\AmazonScraper.Service.SDK.Abstractions.csproj", "{8E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmazonScraper.Service.Messaging", "AmazonScraper.Service.Messaging\AmazonScraper.Service.Messaging.csproj", "{9E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AE0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmazonScraper.Service.Tests", "AmazonScraper.Service.Tests\AmazonScraper.Service.Tests.csproj", "{BE0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmazonScraper.Service.SDK.AdapterTests", "AmazonScraper.Service.SDK.AdapterTests\AmazonScraper.Service.SDK.AdapterTests.csproj", "{CE0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB0B5CA4-3C77-4F17-8BF6-31A6AFD7C147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB0B5CA4-3C77-4F17-8BF6-31A6AFD7C147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB0B5CA4-3C77-4F17-8BF6-31A6AFD7C147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB0B5CA4-3C77-4F17-8BF6-31A6AFD7C147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4C0008A-8611-4E0C-B452-15F87AD23351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C0008A-8611-4E0C-B452-15F87AD23351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4C0008A-8611-4E0C-B452-15F87AD23351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4C0008A-8611-4E0C-B452-15F87AD23351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE0B5A4F-1C77-4F17-8BF6-31A6AFD7C147} = {AE0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}
+		{CE0B5A4F-1C77-4F17-8BF6-31A6AFD7C147} = {AE0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE0B5A4F-1C77-4F17-8BF6-31A6AFD7C147}
+	EndGlobalSection
+EndGlobal
